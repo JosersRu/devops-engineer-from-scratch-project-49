@@ -9,7 +9,7 @@ def main():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     while count != 3:
         rand_int = random.randint(1, 100)
-        print(f'Question: {rand_int}', end = ' ')
+        print(f'Question: {rand_int}', end=' ')
         user_answer = input()
         if (
             rand_int % 2 == 0 and user_answer == 'yes' 
