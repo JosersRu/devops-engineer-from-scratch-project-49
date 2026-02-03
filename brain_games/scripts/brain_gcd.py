@@ -1,5 +1,6 @@
 import random
 from math import gcd
+
 import brain_games.cli as cli
 
 
@@ -22,7 +23,7 @@ def main():
             return
 
     print(f'Congratulations {name}')
-            
+    
 
 if __name__ == "__main__":
     main()
