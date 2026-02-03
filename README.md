@@ -2,11 +2,14 @@
 [![Actions Status](https://github.com/JosersRu/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/JosersRu/devops-engineer-from-scratch-project-49/actions) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=JosersRu_devops-engineer-from-scratch-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=JosersRu_devops-engineer-from-scratch-project-49) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=JosersRu_devops-engineer-from-scratch-project-49&metric=bugs)](https://sonarcloud.io/summary/new_code?id=JosersRu_devops-engineer-from-scratch-project-49) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=JosersRu_devops-engineer-from-scratch-project-49&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=JosersRu_devops-engineer-from-scratch-project-49) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=JosersRu_devops-engineer-from-scratch-project-49&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=JosersRu_devops-engineer-from-scratch-project-49) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=JosersRu_devops-engineer-from-scratch-project-49&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=JosersRu_devops-engineer-from-scratch-project-49) [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=JosersRu_devops-engineer-from-scratch-project-49&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=JosersRu_devops-engineer-from-scratch-project-49) [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=JosersRu_devops-engineer-from-scratch-project-49&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=JosersRu_devops-engineer-from-scratch-project-49) [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=JosersRu_devops-engineer-from-scratch-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=JosersRu_devops-engineer-from-scratch-project-49) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=JosersRu_devops-engineer-from-scratch-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=JosersRu_devops-engineer-from-scratch-project-49) [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=JosersRu_devops-engineer-from-scratch-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=JosersRu_devops-engineer-from-scratch-project-49)
 
 
-## brain-even
+### brain-even
 [![asciicast](https://asciinema.org/a/0ypQ6ul8hWSur3F0.svg)](https://asciinema.org/a/0ypQ6ul8hWSur3F0)
 
-## brain-calc
+### brain-calc
 [![asciicast](https://asciinema.org/a/AFL6Eyc5NV8dpgJm.svg)](https://asciinema.org/a/AFL6Eyc5NV8dpgJm)
 
-## brain-gcd
+### brain-gcd
 [![asciicast](https://asciinema.org/a/zFv8wz69L72y0T3m.svg)](https://asciinema.org/a/zFv8wz69L72y0T3m)
+
+### brain-prime
+[![asciicast](https://asciinema.org/a/Hvp0ZlZPTMCzV6SR.svg)](https://asciinema.org/a/Hvp0ZlZPTMCzV6SR)

@@ -13,12 +13,12 @@ def main():
         operation = random.choice(['+', '-', '*'])
         expression = f"{num1} {operation} {num2}"
         result = eval(expression)
-        print(f'Question: {expression}?')
+        print(f'Question: {expression}?', end = ' ')
         user_answer = input()
         if (user_answer == str(result)):
             
             count += 1
-            print(f'Your answer: {user_answer} \n Correct!')
+            print(f'Your answer: {user_answer} \nCorrect!')
         else:
             print(f'{user_answer} is wrong answer ;(. Correct anwser was "{result}"')
             print(f'Let\'s try again {name}!')

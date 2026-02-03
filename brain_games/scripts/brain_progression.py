@@ -17,11 +17,11 @@ def main():
         result = progression[hidden_index]
         progression[hidden_index] = ".."
         
-        print("Question: ", ' '.join(map(str, progression)))
+        print("Question: ", ' '.join(map(str, progression)), end = ' ')
         user_answer = input()
         if (user_answer == str(result)): 
             count += 1
-            print(f"Your answer {user_answer} \n Correct!")
+            print(f"Your answer {user_answer} \nCorrect!")
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{result}'.")
             return

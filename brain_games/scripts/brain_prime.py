@@ -2,22 +2,26 @@ import random
 
 import brain_games.cli as cli
 
+def is_prime(n: int):
+    if (n < 2):
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+            
 
 def main():
     name = cli.welcome_user()
     count = 0
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     while count != 3:
         rand_int = random.randint(1, 100)
         print(f'Question: {rand_int}', end = ' ')
         user_answer = input()
-        if (
-            rand_int % 2 == 0 and user_answer == 'yes' 
-            or
-            rand_int % 2 != 0 and user_answer == 'no'):
-            
+        if (user_answer == 'yes' and is_prime(rand_int) or user_answer == 'no' and not is_prime(rand_int)):
+            print(f"Your answer: {user_answer}")
             count += 1
-            print(f'You answer: {user_answer} \nCorrect!')
         else:
             print(f'Let\'s try again {name}')
             return

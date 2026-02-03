@@ -12,11 +12,11 @@ def main():
         num1 = random.randint(1, 100)
         num2 = random.randint(1, 100)
         result = gcd(num1, num2)
-        print(f'Question: {num1} {num2}')
+        print(f'Question: {num1} {num2}', end = ' ')
         user_answer = input()
         if (user_answer == str(result)):
             count += 1
-            print(f'You answer: {user_answer} \n Correct!')
+            print(f'You answer: {user_answer} \nCorrect!')
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{result}'.")
             print(f'Let\'s try again {name}')
